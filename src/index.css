@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
+@import 'tailwindcss';
+
+@theme {
+  --font-outfit: "Outfit", sans-serif;
+  --color-dark-primary: #11151C;
+  --color-dark-secondary: #212D40;
+  --color-dark-tertiary: #364156;
+  --color-accent: #66CCFF;
+  --color-accent-secondary: #88BBDD;
+  --color-light: #F5F5F5;
+  --text-h1: min(11vw, 3rem);
+  --text-h3: min(10vw, 2.5rem);
+  --ease-out-back: cubic-bezier(0.175, 0.885, 0.320, 1.275);
+  --shadow-contact-button: 5px 5px 0 rgba(0, 0, 0, 0.5);
+  --shadow-contact-button-rise: 5px 10px 0 rgba(0, 0, 0, 0.5);
+  --shadow-contact-card: 10px 10px 0 rgba(0, 0, 0, 0.3);
+  
+}
+
+
+@layer base {
+
+  html {
+    @apply scroll-smooth overflow-x-hidden;
+  }
+
+  header {
+    @apply bg-dark-primary fixed w-full top-0 z-10 duration-500 transition-shadow;
+  }
+
+  body {
+    @apply bg-dark-primary text-light font-outfit text-base leading-7;
+    @apply antialiased;
+  }
+
+  main {
+    @apply w-full max-w-[900px] mx-auto px-5 py-8 md:px-8 md:py-12 overflow-hidden;
+  }
+
+  button {
+    @apply cursor-pointer;
+  }
+
+  h1 {
+    @apply text-h1 font-bold text-accent;
+  }
+
+  h3 {
+    @apply text-h3 font-bold text-accent text-center;
+  }
+
+}
+
+
+
+@import './App.css';

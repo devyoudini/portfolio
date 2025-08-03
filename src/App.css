@@ -1,0 +1,47 @@
+.skillGrid {
+    @apply grid grid-cols-2 md:grid-cols-4 font-extralight text-sm mt-20 md:mt-30 gap-y-15 md:gap-y-30 *:flex *:flex-col *:items-center *:gap-2 mb-30
+}
+
+.skillGrid svg {
+    @apply w-[80px] h-[80px] md:w-[100px] md:h-[100px]
+}
+
+#tools {
+    @apply grid grid-cols-2 place-items-center font-extralight gap-y-15 text-sm *:flex *:flex-col *:items-center *:gap-2 mt-20 md:grid-cols-4 mb-15 md:mb-30
+}
+
+#tools svg {
+    @apply w-[min(20vw,80px)] h-[min(20vw,80px)] md:w-[100px] md:h-[100px]
+}
+
+.contactButton {
+    @apply text-accent mt-10 mb-5 flex items-center gap-2 rounded-full px-4 py-2 font-light shadow-contact-button duration-200 hover:translate-y-[-5px] hover:shadow-contact-button-rise active:translate-y-[2px] active:shadow-none
+}
+
+.contactCard {
+    @apply bg-dark-secondary text-light flex w-full max-w-[400px] flex-col place-items-center gap-3 rounded-2xl p-7 shadow-contact-card
+}
+
+#nav li button {
+    @apply relative flex items-center justify-center w-15 h-15 rounded-full bg-dark-tertiary hover:w-30 *:absolute duration-500 before:content-[''] before:absolute before:inset-0 before:bg-linear-60 before:from-dark-primary before:to-dark-tertiary before:duration-500 before:rounded-full before:opacity-0 hover:before:opacity-100 after:content-[''] after:absolute after:top-2.5 after:w-full after:h-full after:bg-linear-60 after:from-dark-primary after:to-dark-tertiary after:z-[-1] after:rounded-full after:blur-lg after:opacity-0 hover:after:opacity-50 shadow-lg active:opacity-50
+}
+
+#nav li button span {
+    @apply scale-0 duration-500 uppercase font-bold delay-0 z-100
+}
+
+#nav li button:hover span {
+    @apply scale-100 duration-500 delay-250
+}
+
+#nav li button .icon {
+    @apply scale-100 duration-500 delay-250
+}
+
+#nav li button:hover .icon {
+    @apply scale-0 duration-500 delay-0
+}
+
+#media li a {
+    @apply w-15 h-15 flex items-center justify-center text-dark-tertiary bg-white rounded-full border-white border-2 text-lg overflow-hidden relative z-5 hover:text-white duration-500 before:content-[''] before:w-full before:h-full before:absolute before:left-0 before:top-full before:duration-500 hover:before:top-0 hover:*:rotate-y-360 active:scale-90 active:opacity-50
+}
