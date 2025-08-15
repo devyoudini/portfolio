@@ -1,15 +1,3 @@
-import TypeScriptIcon from "./TypescriptIcon";
-import HTMLIcon from "./HTMLIcon";
-import CSSIcon from "./CSSIcon";
-import NodeJSIcon from "./NodeJSIcon";
-import PHPIcon from "./PHPIcon";
-import PythonIcon from "./PythonIcon";
-import ReactIcon from "./ReactIcon";
-import JavaScriptIcon from "./JavaScriptIcon";
-import GitIcon from "./GitIcon";
-import GitHubIcon from "./GitHubIcon";
-import FigmaIcon from "./FigmaIcon";
-import VSCodeIcon from "./VSCodeIcon";
 import type { SVGProps } from "react";
 
 function GearIcon(props: SVGProps<SVGSVGElement>) {
@@ -243,86 +231,7 @@ function DownloadIcon(props: SVGProps<SVGSVGElement>) {
   );
 }
 
-function FacebookIcon(props: SVGProps<SVGSVGElement>) {
-  return (
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      width={320}
-      height={512}
-      viewBox="0 0 320 512"
-      {...props}
-    >
-      <path
-        fill="currentColor"
-        d="M80 299.3V512h116V299.3h86.5l18-97.8H196v-34.6c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4.4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8z"
-      ></path>
-    </svg>
-  );
-}
-
-function InstagramIcon(props: SVGProps<SVGSVGElement>) {
-  return (
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      width={448}
-      height={512}
-      viewBox="0 0 448 512"
-      {...props}
-    >
-      <path
-        fill="currentColor"
-        d="M224.3 141a115 115 0 1 0-.6 230a115 115 0 1 0 .6-230m-.6 40.4a74.6 74.6 0 1 1 .6 149.2a74.6 74.6 0 1 1-.6-149.2m93.4-45.1a26.8 26.8 0 1 1 53.6 0a26.8 26.8 0 1 1-53.6 0m129.7 27.2c-1.7-35.9-9.9-67.7-36.2-93.9c-26.2-26.2-58-34.4-93.9-36.2c-37-2.1-147.9-2.1-184.9 0c-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9c1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0c35.9-1.7 67.7-9.9 93.9-36.2c26.2-26.2 34.4-58 36.2-93.9c2.1-37 2.1-147.8 0-184.8M399 388c-7.8 19.6-22.9 34.7-42.6 42.6c-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6c-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6c29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6c11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1"
-      ></path>
-    </svg>
-  );
-}
-
-function LinkedInIcon(props: SVGProps<SVGSVGElement>) {
-  return (
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      width={448}
-      height={512}
-      viewBox="0 0 448 512"
-      {...props}
-    >
-      <path
-        fill="currentColor"
-        d="M100.3 448H7.4V148.9h92.9zM53.8 108.1C24.1 108.1 0 83.5 0 53.8c0-14.3 5.7-27.9 15.8-38S39.6 0 53.8 0s27.9 5.7 38 15.8s15.8 23.8 15.8 38c0 29.7-24.1 54.3-53.8 54.3M447.9 448h-92.7V302.4c0-34.7-.7-79.2-48.3-79.2c-48.3 0-55.7 37.7-55.7 76.7V448h-92.8V148.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3c94 0 111.3 61.9 111.3 142.3V448z"
-      ></path>
-    </svg>
-  );
-}
-
-function GoogleIcon(props: SVGProps<SVGSVGElement>) {
-  return (
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      width={640}
-      height={512}
-      viewBox="0 0 640 512"
-      {...props}
-    >
-      <path
-        fill="currentColor"
-        d="M386.3 228.5c1.8 9.7 3.1 19.4 3.1 32C389.4 370.3 315.8 448 205 448C98.9 448 13 362.1 13 256S98.9 64 205 64c51.9 0 95.1 18.9 128.6 50.3l-52.1 50c-14.1-13.6-39-29.6-76.5-29.6c-65.5 0-118.9 54.2-118.9 121.3S139.5 377.3 205 377.3c76 0 104.5-54.7 109-82.8H205v-66zm185.4 6.4v-55.7h-56v55.7H460v56h55.7v55.7h56v-55.7h55.7v-56z"
-      ></path>
-    </svg>
-  );
-}
 export {
-  TypeScriptIcon,
-  HTMLIcon,
-  CSSIcon,
-  NodeJSIcon,
-  VSCodeIcon,
-  PHPIcon,
-  PythonIcon,
-  ReactIcon,
-  JavaScriptIcon,
-  GitIcon,
-  GitHubIcon,
-  FigmaIcon,
   GearIcon,
   MailIcon,
   HandPointingDownIcon,
@@ -333,8 +242,4 @@ export {
   PlayIcon,
   XmarkIcon,
   DownloadIcon,
-  FacebookIcon,
-  InstagramIcon,
-  LinkedInIcon,
-  GoogleIcon,
 };

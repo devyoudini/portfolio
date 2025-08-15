@@ -1,4 +1,4 @@
-import profile from "../assets/img/img.png";
+import profile from "../assets/img/img.webp";
 import CV from "../assets/cv/Ingua, John Lee CV.pdf";
 import { DownloadIcon, HandPointingDownIcon, InfoIcon } from "../assets/icons";
 import { useLenis } from "lenis/react";
@@ -115,6 +115,7 @@ function ImageLoader({ src, alt }: { src: string; alt: string }) {
       <motion.img
         src={src}
         alt={alt}
+        loading="lazy"
         className={`h-full w-full rounded-full object-cover duration-500 group-hover/profile:translate-x-[-1.5rem] group-hover/profile:translate-y-[3.5rem] group-hover/profile:scale-150 focus:scale-150 ${showImage ? "opacity-100" : "opacity-0"}`}
         id="profile"
       />
