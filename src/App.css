@@ -1,47 +1,99 @@
 .skillGrid {
-    @apply grid grid-cols-2 md:grid-cols-4 font-extralight text-sm mt-20 md:mt-30 gap-y-15 md:gap-y-30 *:flex *:flex-col *:items-center *:gap-2 mb-30
+  @apply mt-20 mb-30 grid grid-cols-2 gap-y-15 text-sm font-extralight *:flex *:flex-col *:items-center *:gap-2 md:mt-30 md:grid-cols-4 md:gap-y-30;
 }
 
 .skillGrid svg {
-    @apply w-[80px] h-[80px] md:w-[100px] md:h-[100px]
+  @apply h-[80px] w-[80px] md:h-[100px] md:w-[100px];
 }
 
 #tools {
-    @apply grid grid-cols-2 place-items-center font-extralight gap-y-15 text-sm *:flex *:flex-col *:items-center *:gap-2 mt-20 md:grid-cols-4 mb-15 md:mb-30
+  @apply mt-20 mb-15 grid grid-cols-2 place-items-center gap-y-15 text-sm font-extralight *:flex *:flex-col *:items-center *:gap-2 md:mb-30 md:grid-cols-4;
 }
 
 #tools svg {
-    @apply w-[min(20vw,80px)] h-[min(20vw,80px)] md:w-[100px] md:h-[100px]
+  @apply h-[min(20vw,80px)] w-[min(20vw,80px)] md:h-[100px] md:w-[100px];
 }
 
 .contactButton {
-    @apply text-accent mt-10 mb-5 flex items-center gap-2 rounded-full px-4 py-2 font-light shadow-contact-button duration-200 hover:translate-y-[-5px] hover:shadow-contact-button-rise active:translate-y-[2px] active:shadow-none
+  @apply text-accent shadow-contact-button hover:shadow-contact-button-rise mt-10 mb-5 flex items-center gap-2 rounded-full px-4 py-2 font-light duration-200 hover:translate-y-[-5px] active:translate-y-[2px] active:shadow-none;
 }
 
 .contactCard {
-    @apply bg-dark-secondary text-light flex w-full max-w-[400px] flex-col place-items-center gap-3 rounded-2xl p-7 shadow-contact-card
+  @apply bg-dark-secondary text-light shadow-contact-card flex w-full max-w-[400px] flex-col place-items-center gap-3 rounded-2xl p-7;
 }
 
 #nav li button {
-    @apply relative flex items-center justify-center w-15 h-15 rounded-full bg-dark-tertiary hover:w-30 *:absolute duration-500 before:content-[''] before:absolute before:inset-0 before:bg-linear-60 before:from-dark-primary before:to-dark-tertiary before:duration-500 before:rounded-full before:opacity-0 hover:before:opacity-100 after:content-[''] after:absolute after:top-2.5 after:w-full after:h-full after:bg-linear-60 after:from-dark-primary after:to-dark-tertiary after:z-[-1] after:rounded-full after:blur-lg after:opacity-0 hover:after:opacity-50 shadow-lg active:opacity-50
+  @apply bg-dark-tertiary before:from-dark-primary before:to-dark-tertiary after:from-dark-primary after:to-dark-tertiary relative flex h-15 w-15 items-center justify-center rounded-full shadow-lg duration-500 *:absolute before:absolute before:inset-0 before:rounded-full before:bg-linear-60 before:opacity-0 before:duration-500 before:content-[''] after:absolute after:top-2.5 after:z-[-1] after:h-full after:w-full after:rounded-full after:bg-linear-60 after:opacity-0 after:blur-lg after:content-[''] hover:w-30 hover:before:opacity-100 hover:after:opacity-50 active:opacity-50;
 }
 
 #nav li button span {
-    @apply scale-0 duration-500 uppercase font-bold delay-0 z-100
+  @apply z-100 scale-0 font-bold uppercase delay-0 duration-500;
 }
 
 #nav li button:hover span {
-    @apply scale-100 duration-500 delay-250
+  @apply scale-100 delay-250 duration-500;
 }
 
 #nav li button .icon {
-    @apply scale-100 duration-500 delay-250
+  @apply scale-100 delay-250 duration-500;
 }
 
 #nav li button:hover .icon {
-    @apply scale-0 duration-500 delay-0
+  @apply scale-0 delay-0 duration-500;
 }
 
 #media li a {
-    @apply w-15 h-15 flex items-center justify-center text-dark-tertiary bg-white rounded-full border-white border-2 text-lg overflow-hidden relative z-5 hover:text-white duration-500 before:content-[''] before:w-full before:h-full before:absolute before:left-0 before:top-full before:duration-500 hover:before:top-0 hover:*:rotate-y-360 active:scale-90 active:opacity-50
+  @apply text-dark-tertiary relative z-5 flex h-15 w-15 items-center justify-center overflow-hidden rounded-full border-2 border-white bg-white text-lg duration-500 before:absolute before:top-full before:left-0 before:h-full before:w-full before:duration-500 before:content-[''] hover:text-white hover:*:rotate-y-360 hover:before:top-0 active:scale-90 active:opacity-50;
+}
+
+#skills .iconify {
+  @apply duration-300;
+}
+
+.iconify.js {
+  @apply hover:drop-shadow-[0_0_10px_#F7DF1E];
+}
+
+.iconify.react {
+  @apply hover:drop-shadow-[0_0_10px_#00D8FF];
+}
+
+.iconify.python {
+  @apply hover:drop-shadow-[0_0_10px_#4584B6];
+}
+
+.iconify.php {
+  @apply hover:drop-shadow-[0_0_10px_#6181b6];
+}
+
+.iconify.node {
+  @apply hover:drop-shadow-[0_0_10px_#68A063];
+}
+
+.iconify.ts {
+  @apply hover:drop-shadow-[0_0_10px_#007acc];
+}
+
+.iconify.html {
+  @apply hover:drop-shadow-[0_0_10px_#E44D26];
+}
+
+.iconify.css {
+  @apply hover:drop-shadow-[0_0_10px_#1572B6];
+}
+
+.iconify.git {
+  @apply hover:drop-shadow-[0_0_10px_#DE4C36];
+}
+
+.iconify.github {
+  @apply hover:drop-shadow-[0_0_10px_#161614];
+}
+
+.iconify.vscode {
+  @apply hover:drop-shadow-[0_0_10px_#0065A9];
+}
+
+.iconify.figma {
+  @apply hover:drop-shadow-[0_0_10px_#F24E1E];
 }

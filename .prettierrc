@@ -1,5 +1,7 @@
 {
-  "plugins": [
-    "prettier-plugin-tailwindcss"
-  ]
+  "plugins": ["prettier-plugin-tailwindcss"],
+  "endOfLine": "lf",
+  "trailingComma": "all",
+  "tabWidth": 2,
+  "useTabs": false
 }

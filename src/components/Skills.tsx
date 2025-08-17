@@ -15,7 +15,7 @@ function Skills() {
 
   return (
     <div
-      className="bg-dark-secondary flex flex-col rounded-[3rem] px-6 py-5 md:rounded-[5rem] md:px-15 mb-30"
+      className="bg-dark-secondary mb-30 flex flex-col rounded-[3rem] px-6 py-5 md:rounded-[5rem] md:px-15"
       data-aos="fade-up"
       id="skills"
     >
@@ -31,8 +31,8 @@ function Skills() {
             Explore My Skills
           </span>
         </div>
-        <div className="bg-dark-primary h-2 w-[30vw] max-w-50 rounded-2xl place-self-center"></div>
-        <div className="flex items-center gap-2 transform-3d place-self-end">
+        <div className="bg-dark-primary h-2 w-[30vw] max-w-50 place-self-center rounded-2xl"></div>
+        <div className="flex items-center gap-2 place-self-end transform-3d">
           <span className="text-accent-secondary hidden font-extralight md:block">
             Contact Me
           </span>
@@ -48,44 +48,44 @@ function Skills() {
       <h3>Skills</h3>
       <div className="skillGrid">
         <div data-aos="zoom-in">
-          <Icon icon="logos:javascript" />
+          <Icon icon="logos:javascript" className="js" />
           <span>JavaScript</span>
         </div>
 
         <div data-aos="zoom-in">
-          <Icon icon="logos:react" />
+          <Icon icon="logos:react" className="react" />
           <span>React</span>
         </div>
 
         <div data-aos="zoom-in">
-          <Icon icon="logos:python" />
+          <Icon icon="logos:python" className="python" />
 
           <span>Python</span>
         </div>
 
         <div data-aos="zoom-in">
-          <Icon icon="logos:php" />
+          <Icon icon="logos:php" className="php" />
 
           <span>PHP</span>
         </div>
 
         <div data-aos="zoom-in">
-          <Icon icon="logos:nodejs" />
+          <Icon icon="logos:nodejs" className="node" />
           <span>Node JS</span>
         </div>
 
         <div data-aos="zoom-in">
-          <Icon icon="devicon:typescript" />
+          <Icon icon="devicon:typescript" className="ts" />
           <span>TypeScript</span>
         </div>
 
         <div data-aos="zoom-in">
-          <Icon icon="devicon:html5" />
+          <Icon icon="devicon:html5" className="html" />
           <span>HTML</span>
         </div>
 
         <div data-aos="zoom-in">
-          <Icon icon="devicon:css3" />
+          <Icon icon="devicon:css3" className="css" />
           <span>CSS</span>
         </div>
       </div>
@@ -93,19 +93,19 @@ function Skills() {
       <h3 data-aos="zoom-in">Tools</h3>
       <div id="tools">
         <div data-aos="zoom-in">
-          <Icon icon="logos:git-icon" />
+          <Icon icon="logos:git-icon" className="git" />
           <span>git</span>
         </div>
         <div data-aos="zoom-in">
-          <Icon icon="logos:github-icon" />
+          <Icon icon="logos:github-icon" className="github" />
           <span>GitHub</span>
         </div>
         <div data-aos="zoom-in">
-          <Icon icon="devicon:vscode" />
+          <Icon icon="devicon:vscode" className="vscode" color="currentFill" />
           <span>VS Code</span>
         </div>
         <div data-aos="zoom-in">
-          <Icon icon="logos:figma" />
+          <Icon icon="logos:figma" className="figma" />
           <span>Figma</span>
         </div>
       </div>
