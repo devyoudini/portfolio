@@ -11,8 +11,8 @@ function FilipinoLingoLogo(props: SVGProps<SVGSVGElement>) {
       {...props}
     >
       <path
-        fill-rule="evenodd"
-        clip-rule="evenodd"
+        fillRule="evenodd"
+        clipRule="evenodd"
         d="M3 39.8248V60.5075C3 69.6464 10.6414 78.7853 24.4916 78.7853V96.101C37.9481 84.2689 46.1307 79.3956 63.654 78.7853C74.6385 79.2662 82.7576 68.6844 82.7576 61.9505V40.7868C82.7576 30.2049 72.2506 22.99 65.5643 22.99H20.1932C11.5966 22.99 3 32.6099 3 39.8248Z"
         fill="#6C63FF"
       />

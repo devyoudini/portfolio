@@ -24,6 +24,7 @@ function Skills() {
           <button
             className="bg-dark-primary group h-12 w-12 place-items-center rounded-full"
             onClick={scrollToSkills}
+            aria-label="Go to Skills"
           >
             <GearIcon className="h-6 w-6 duration-500 group-hover:rotate-360" />
           </button>
@@ -39,6 +40,7 @@ function Skills() {
           <button
             className="bg-dark-primary h-12 w-12 place-items-center rounded-full duration-200 hover:translate-y-[-4px] hover:shadow-[0_4px_4px_rgba(0,0,0,1)]"
             onClick={scrollToContact}
+            aria-label="Go to Contact"
           >
             <MailIcon className="h-5 w-5" />
           </button>

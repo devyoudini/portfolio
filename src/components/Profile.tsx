@@ -56,7 +56,7 @@ function Profile() {
           <InfoIcon className="absolute h-7 w-7 scale-0 duration-500 group-hover:scale-100 group-hover:delay-250" />
         </button>
       </motion.div>
-      <motion.a
+      <motion.span
         initial={{ opacity: 0, scaleX: 0 }}
         whileInView={{
           opacity: 1,
@@ -67,7 +67,7 @@ function Profile() {
       >
         Explore my work below
         <HandPointingDownIcon className="animate-bounce" />
-      </motion.a>
+      </motion.span>
     </div>
   );
 }

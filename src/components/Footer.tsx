@@ -19,6 +19,7 @@ function Footer() {
             onClick={() => {
               lenis?.scrollTo("#home", { offset: -200 });
             }}
+            aria-label="Go to Home"
           >
             <span>Home</span>
             <Icon icon="fa7-solid:home" className="icon" />
@@ -29,6 +30,7 @@ function Footer() {
             onClick={() => {
               lenis?.scrollTo("#about", { offset: -100 });
             }}
+            aria-label="Go to About"
           >
             <span>About</span>
             <Icon icon="fa7-solid:circle-info" className="icon" />
@@ -39,6 +41,7 @@ function Footer() {
             onClick={() => {
               lenis?.scrollTo("#skills", { offset: -150 });
             }}
+            aria-label="Go to Skills"
           >
             <span>Skills</span>
             <Icon icon="fa7-solid:code" className="icon" />
@@ -49,6 +52,7 @@ function Footer() {
             onClick={() => {
               lenis?.scrollTo("#work", { offset: -100 });
             }}
+            aria-label="Go to Work"
           >
             <span>Work</span>
             <Icon icon="fa7-solid:folder-open" className="icon" />
@@ -59,6 +63,7 @@ function Footer() {
             onClick={() => {
               lenis?.scrollTo("#contact", { offset: -200 });
             }}
+            aria-label="Go to Contact"
           >
             <span>Contact</span>
             <Icon icon="fa7-solid:comment" className="icon" />
@@ -75,6 +80,7 @@ function Footer() {
             href="https://facebook.com/youdini31"
             className="before:bg-[#3b5999]"
             target="_blank"
+            aria-label="Facebook Link"
           >
             <Icon icon="fa7-brands:facebook-f" />
           </a>
@@ -84,6 +90,7 @@ function Footer() {
             href="https://instagram.com/_youdini"
             className="before:bg-linear-45 before:from-[#f9ce34] before:via-[#ee2a7b] before:to-[#6228d7]"
             target="_blank"
+            aria-label="Instagram Link"
           >
             <Icon
               icon="fa7-brands:instagram"
@@ -97,6 +104,7 @@ function Footer() {
             href="https://linkedin.com/in/youdini"
             className="before:bg-[#0077b5]"
             target="_blank"
+            aria-label="LinkedIn Link"
           >
             <Icon icon="fa7-brands:linkedin-in" className="h-5 w-5" />
           </a>
@@ -106,6 +114,7 @@ function Footer() {
             href="mailto:jmingua@ccc.edu.ph"
             className="before:bg-[#dd4b39]"
             target="_blank"
+            aria-label="Mail Link"
           >
             <Icon icon="fa7-brands:google-plus-g" className="h-7 w-7" />
           </a>
