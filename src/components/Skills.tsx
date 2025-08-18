@@ -45,7 +45,7 @@ function Skills() {
         </div>
       </div>
 
-      <h3>Skills</h3>
+      <h2>Skills</h2>
       <div className="skillGrid">
         <div data-aos="zoom-in">
           <Icon icon="logos:javascript" className="js" />
@@ -90,7 +90,7 @@ function Skills() {
         </div>
       </div>
 
-      <h3 data-aos="zoom-in">Tools</h3>
+      <h2 data-aos="zoom-in">Tools</h2>
       <div id="tools">
         <div data-aos="zoom-in">
           <Icon icon="logos:git-icon" className="git" />

@@ -5,7 +5,7 @@ import nextvasLogo from "../assets/img/nextvas-logo.png";
 function About() {
   return (
     <div className="mt-30 flex flex-col justify-center" id="about">
-      <h3 data-aos="fade-up">About Me</h3>
+      <h2 data-aos="fade-up">About Me</h2>
       <p
         className="mx-7 my-16 text-center font-extralight md:mx-16 md:my-20"
         data-aos="fade-up"

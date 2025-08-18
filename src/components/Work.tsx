@@ -28,7 +28,7 @@ function Work() {
 
   return (
     <div className="mb-30 flex flex-col items-center" id="work">
-      <h3 data-aos="zoom-in">My work</h3>
+      <h2 data-aos="zoom-in">My work</h2>
       <div
         className="mt-30 mb-20 flex flex-col items-center justify-center"
         data-aos="zoom-in"

@@ -3,9 +3,9 @@ import { Icon } from "@iconify/react/dist/iconify.js";
 function Contact() {
   return (
     <>
-      <h3 data-aos="zoom-in" id="contact">
+      <h2 data-aos="zoom-in" id="contact">
         Contact me
-      </h3>
+      </h2>
       <div className="mt-30 mb-30 grid w-full grid-cols-1 place-items-center gap-5 md:grid-cols-2 md:gap-10">
         <div className="contactCard" data-aos="zoom-in-right">
           <span>Email</span>
